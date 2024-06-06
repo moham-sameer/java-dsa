@@ -21,7 +21,7 @@ public class charBS {
             } else {
                 end = mid - 1;
             }
-        }
+        }        
         return arr[start % arr.length];
     }
 }

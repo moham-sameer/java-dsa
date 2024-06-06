@@ -1,7 +1,7 @@
 package kunalDsa.binarySearch;
 public class ceiling {
    public static void main(String[] args) {
-     // ! Search either the target one and if it's not available then the next greater.
+     // ! Search the target and if it's not available then the next greater.
       int [] arr = {2,4,6,8,12,14,15,16,18};
       int target = 15;
       int ans = search(arr, target);
