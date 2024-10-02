@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "level",
+            "request": "launch",
+            "mainClass": "Tree.level",
+            "projectName": "java-dsa_66508e3f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

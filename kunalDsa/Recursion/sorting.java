@@ -22,7 +22,7 @@ public class sorting {
         int mid = (s+e)/2;
         int pivot = arr[mid];
         while(s<=e){
-                while(arr[s]<=pivot){
+                while(arr[s]<pivot){
                   s++;
                 }while(arr[e]>pivot){
                     e--;
@@ -92,6 +92,7 @@ public class sorting {
                 j++;
             }
             k++;
+            
          }
          return mix;
     }
